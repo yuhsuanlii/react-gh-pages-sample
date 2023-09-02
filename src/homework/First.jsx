@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
 const data = [
     {
@@ -88,6 +89,10 @@ const First = () => {
 
     return (
         <>
+            <div style={{ 'padding': '10px 30px' }}>
+                <Link to={'/'}>回到首頁</Link>
+            </div>
+            <hr />
             <table>
                 <thead>
                     <tr>

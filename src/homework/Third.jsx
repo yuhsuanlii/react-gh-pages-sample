@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Third = () => {
 
@@ -104,6 +105,10 @@ const Third = () => {
 
     return (
         <>
+            <div style={{ 'padding': '10px 30px' }}>
+                <Link to={'/'}>回到首頁</Link>
+            </div>
+            <hr />
             <div style={{ 'padding': '30px' }}>
                 <h3>註冊</h3>
                 <input
