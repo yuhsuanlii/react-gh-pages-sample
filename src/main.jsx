@@ -1,11 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import First from './homework/First';
-import Second from './homework/Second';
+import { BrowserRouter } from 'react-router-dom'
+import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Second />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
 )
